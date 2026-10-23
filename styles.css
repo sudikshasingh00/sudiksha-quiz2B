@@ -1,0 +1,99 @@
+/* ===================================================================
+   Dusty Toes — Meet the Herd
+   The styles in the first block are done for you. Do not change them.
+   Write your rules under each task. Work in order.
+   =================================================================== */
+
+
+/* ---------- DONE FOR YOU ---------- */
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #3b2f2a;
+  background: #faf6ef;
+}
+
+header,
+footer {
+  background: #5b4636;
+  color: #faf6ef;
+  padding: 10px 30px;
+}
+
+header a {
+  color: #faf6ef;
+}
+
+.logo {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+main {
+  padding: 30px;
+}
+
+.notice {
+  background: #f3e3c3;
+  padding: 10px;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+
+/* ---------- YOUR WORK STARTS HERE ---------- */
+
+
+/* TASK 1: Make 1rem equal 10px by setting the root font size to 62.5%.
+   Then set the body text to 1.6rem. */
+
+
+
+/* TASK 2: In ONE rule, make the h1 and h2 headings normal weight
+   (not bold). Then make only the h2 headings all capital letters
+   using CSS. */
+
+
+
+/* TASK 3: Lay out the header with flexbox. Push the logo to the left
+   and the navigation to the right, and centre them vertically. */
+
+
+
+/* TASK 4: Put the navigation links (.nav-list) in a row with 20px
+   between them. Remove the bullets and the list's default padding. */
+
+
+
+/* TASK 5: Give each .card a 2px solid #b5835a border, and 20px of
+   padding on the top and bottom and 30px on the left and right,
+   written as ONE padding declaration. */
+
+
+
+/* TASK 6: Lay out the .herd section as a grid of three equal
+   columns with 20px gutters between the cards. */
+
+
+
+/* TASK 7: When the browser window is 700px wide or narrower, show the
+   herd in a single column. */
+
+
+
+/* TASK 8: Make the footer stay at the bottom of the window, even when
+   the page content is short. Use flexbox on the body and let <main>
+   grow to fill the space. */
+
+
+
+/* TASK 9: Give the .notice a 5px solid #b5835a border on its
+   left side only. */
