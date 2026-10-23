@@ -54,8 +54,12 @@ main {
 
 /* TASK 1: Make 1rem equal 10px by setting the root font size to 62.5%.
    Then set the body text to 1.6rem. */
-
-
+html {
+  font-size: 62.5%;
+}
+body {
+   font-size: 1.6rem;
+}
 
 /* TASK 2: In ONE rule, make the h1 and h2 headings normal weight
    (not bold). Then make only the h2 headings all capital letters
