@@ -65,39 +65,76 @@ body {
    (not bold). Then make only the h2 headings all capital letters
    using CSS. */
 
-
+h1, h2 {
+   font-weight: normal;
+}
+h2 {
+   font-variant: small-caps;
+}
 
 /* TASK 3: Lay out the header with flexbox. Push the logo to the left
    and the navigation to the right, and centre them vertically. */
+#box {
+  display: flex;
+  list-style: none;
 
+   logo {
+   justify-content: start;
+}   
+   nav-list{ 
+   margin-left: auto;
+   flex-direction: row-reverse;
+}
+}
 
 
 /* TASK 4: Put the navigation links (.nav-list) in a row with 20px
    between them. Remove the bullets and the list's default padding. */
-
+.nav-list{
+   display: inline-flexbox;
+   padding: 20px;
+}
 
 
 /* TASK 5: Give each .card a 2px solid #b5835a border, and 20px of
    padding on the top and bottom and 30px on the left and right,
    written as ONE padding declaration. */
+#grid {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+}
+.card {
+   border: 2px solid #b5835a;
+   padding: 20px 30px;
+}
 
-
-
-/* TASK 6: Lay out the .herd section as a grid of three equal
+/* TASK 6: Lay out the .herd secti on as a grid of three equal
    columns with 20px gutters between the cards. */
-
-
+.herd {
+   .card{
+   margin: 20px;
+}
+}
 
 /* TASK 7: When the browser window is 700px wide or narrower, show the
    herd in a single column. */
-
+@media screen and (min-width: 700px) {
+   .herd {
+      grid-template-areas: "a a";
+   }
+}
 
 
 /* TASK 8: Make the footer stay at the bottom of the window, even when
    the page content is short. Use flexbox on the body and let <main>
    grow to fill the space. */
 
-
+body {
+   
+}
 
 /* TASK 9: Give the .notice a 5px solid #b5835a border on its
    left side only. */
+.notice {
+   border-left: 5px solid #b5835a;
+}
